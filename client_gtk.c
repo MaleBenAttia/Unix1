@@ -1,3 +1,5 @@
+// gcc client_gtk.c -o client_gtk `pkg-config --cflags --libs gtk+-3.0` -pthread
+
 #include <gtk/gtk.h>
 #include <pthread.h>
 #include <signal.h>
