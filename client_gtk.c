@@ -1,5 +1,8 @@
 // client_gtk.c - Version commentée
 // Compilation : gcc client_gtk.c -o client_gtk `pkg-config --cflags --libs gtk+-3.0` -pthread
+//sudo apt update
+//sudo apt install libgtk-3-dev
+
 
 #include <gtk/gtk.h>          // Bibliothèque GTK3
 #include <pthread.h>          // Threads POSIX
